@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    .img-container {
+        width: 230px;
+        height: 230px;
+        background-color: #dddddd;
+        border-radius: 300px;
+        margin: 20px auto;
+        box-shadow: 
+        8px 8px 12px 0 rgba(0, 0, 0, 0.16),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+    }
+
+    .btn-container {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        button {
+            width: 200px;
+            margin: 5px auto;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            font-weight: 600;
+            border-radius: 100px;
+            border: none;
+            box-shadow: 
+            8px 8px 12px 0 rgba(0, 0, 0, 0.3),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+        }
+    }
+}
