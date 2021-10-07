@@ -1,0 +1,22 @@
+.row-name {
+    color: rgb(73, 73, 73);
+    text-transform: uppercase;
+    background-color: #61ea91;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 
+    8px 8px 12px 0 rgba(0, 0, 0, 0.16),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 900px;
+    margin-bottom: 30px;
+
+}

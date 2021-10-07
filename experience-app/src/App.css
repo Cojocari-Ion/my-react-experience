@@ -1,26 +1,85 @@
-nav {
+.App {
+  width: 100%;
+  font-family: 'poppins', 'sans-serif';
+}
+
+.App .identity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 350px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 100%;
 }
 
-nav .img-container {
+.App .identity .page {
+  height: auto;
+}
+
+.App .identity .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 230px;
   height: 230px;
   background-color: #dddddd;
   border-radius: 300px;
-  margin: 20px auto;
   -webkit-box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.16), -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
           box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.16), -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
 }
 
-nav .btn-container {
-  margin-top: 40px;
+.App .identity .img-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 215px;
+  width: 215px;
+  border-radius: 300px;
+}
+
+.App .identity .name {
+  color: #494949;
+  text-transform: uppercase;
+  text-align: end;
+  width: 800px;
+  margin-top: 120px;
+  margin-bottom: 0;
+  font-size: 90px;
+  height: auto;
+  border-bottom: 4px solid #61ea91;
+}
+
+.App .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .info nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.App .info nav .btn-container {
+  margin: 40px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,10 +89,10 @@ nav .btn-container {
           flex-direction: column;
 }
 
-nav .btn-container button {
+.App .info nav .btn-container button {
   color: #494949;
   width: 200px;
-  margin: 10px auto;
+  margin: 10px 0 10px 20px;
   font-size: 18px;
   text-transform: uppercase;
   padding: 10px 10px;
@@ -44,10 +103,19 @@ nav .btn-container button {
           box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.2), -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
 }
 
-nav .btn-container button:focus {
+.App .info nav .btn-container .active-btn {
   color: #61ea91;
   background-color: #fff;
-  -webkit-box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
-          box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.2) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
+          box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.2) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.App .info section {
+  margin-top: 40px;
+  width: 850px;
+}
+
+.App .info section .page {
+  width: 100%;
 }
 /*# sourceMappingURL=App.css.map */

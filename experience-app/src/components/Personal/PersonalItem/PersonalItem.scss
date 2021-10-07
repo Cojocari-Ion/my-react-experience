@@ -1,0 +1,26 @@
+
+.item {
+    display: flex;
+    color: rgb(73, 73, 73);
+    font-family: 'poppins', 'sans-serif';
+    align-items: center;
+    
+   
+
+    .icon-container {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(202, 202, 202);
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        margin-right: 10px;
+        
+    }
+
+    a {
+        color: rgb(73, 73, 73);
+    }
+}

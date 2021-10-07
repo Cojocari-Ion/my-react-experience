@@ -2,8 +2,8 @@ import React from 'react';
 
 const Jobs =()=> {
     return (
-        <div>
-            <h1>Jobs here!</h1>
+        <div className="jobs page">
+            <h1>Jobs</h1>
         </div>
     )
 }

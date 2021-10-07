@@ -2,10 +2,9 @@ import React from 'react';
 
 const Skills =()=> {
     return (
-        <div>
-            <h1>Skills here!</h1>
+        <div className="skills">
+            <h1>skills here</h1>
         </div>
     )
 }
-
 export default Skills
