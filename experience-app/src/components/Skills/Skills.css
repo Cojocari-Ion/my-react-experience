@@ -1,0 +1,15 @@
+.skills-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.web-design h4 {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Skills.css.map */
