@@ -1,0 +1,33 @@
+
+.profile {
+    color: #494949;
+
+    .profile-item {
+        display: flex;
+
+        .chevron-container {
+            font-size: 40px;
+            color: #61ea91;
+            margin-top: 12px;
+            
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+
+            h4 {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+    

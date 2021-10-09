@@ -70,7 +70,7 @@ function App() {
 
           <div className="btn-container">    
               {sections.map((item) => (
-                <button className={item.id === value && 'active-btn'} onClick={(e)=> {e.target.classList.toggle('clicked');setValue(item.id)}} type="button">{item.tittle}</button>
+                <button className={item.id === value && 'active-btn'} onClick={(e)=> {setValue(item.id)}} type="button">{item.tittle}</button>
               ))}
           </div>
         </nav>
