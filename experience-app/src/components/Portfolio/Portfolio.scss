@@ -1,0 +1,38 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    .project {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: #494949;
+
+        .img-container {
+            width: 270px;
+            height: 160px;
+            background: #ECECEC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: 
+            8px 8px 12px 0 rgba(0, 0, 0, 0.16),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+            
+
+            img {
+                width: 260px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+    }
+}

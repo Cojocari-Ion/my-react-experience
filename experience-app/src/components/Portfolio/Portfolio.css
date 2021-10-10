@@ -1,0 +1,55 @@
+.portfolio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.portfolio .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #494949;
+}
+
+.portfolio .project .img-container {
+  width: 270px;
+  height: 160px;
+  background: #ECECEC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.16), -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+          box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.16), -8px -8px 12px 0 rgba(255, 255, 255, 0.7);
+}
+
+.portfolio .project .img-container img {
+  width: 260px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=Portfolio.css.map */
