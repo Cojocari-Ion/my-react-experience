@@ -13,7 +13,7 @@ const Profile =()=> {
         {
             id: 1,
             tittle: 'qualities',
-            text: "My personal qualities are perseverance, a time economy and clean code strategyes and I am always looking for new things to learn just to improve myself as a developer. In my personal projects I use a lot of web-instruments that help me to find solutions and sometimes to write much faster some lines of code."
+            text: "My personal qualities are perseverance, a good time management, good analytical skills and I pay a lot of attention to small details. I'm always looking for new things to learn just to improve myself as a developer and in my personal projects I use a lot of web-instruments that help me to find solutions and sometimes to write much faster and clean lines of code."
         },
 
         {
