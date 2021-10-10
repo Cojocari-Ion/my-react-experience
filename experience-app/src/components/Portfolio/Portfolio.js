@@ -58,7 +58,7 @@ const Portfolio =()=> {
     return (
         <div className="portfolio page">
             {projects.map((project) => (
-                <a className="project" key={project.id} href={project.link}>
+                <a  target="_blank" className="project" key={project.id} href={project.link}>
 
                     <div className="img-container">
                         <img src={project.iamge} alt={project.tittle} />
