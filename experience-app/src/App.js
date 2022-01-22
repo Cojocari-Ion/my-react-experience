@@ -49,8 +49,6 @@ function App() {
         content: <Portfolio />
     },
 ]
-
-
   const [value, setValue] = useState(0)
 
   return (
@@ -79,7 +77,7 @@ function App() {
           {sections[value].content}
         </section>
       </div>
-
+           
     </div>
   );
 }
